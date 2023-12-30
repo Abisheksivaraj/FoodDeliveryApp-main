@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(248 250 252);
+}
+
+.nav {
+  background-color: rgb(254, 213, 219);
+  height: 4rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+}
+
+.logo-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name {
+  color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.menus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  margin-left: auto;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.cart {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.count {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  background-color: palevioletred;
+  height: 16px;
+  width: 15px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.profile-img {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 2.1px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 1px rgb(195, 190, 190);
+  border-radius: 100%;
+}
+
+.profile {
+  margin-top: 5px;
+  border-radius: 100%;
+}
+
